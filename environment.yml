@@ -1,0 +1,16 @@
+name: trexp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - ipykernel
+  - ipywidgets
+  - pip
+  - python=3.10
+  - pytorch
+  - transformers
+  - langchain
+  - pip:
+    - deeplake
+    - tiktoken
